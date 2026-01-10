@@ -10,7 +10,7 @@ This project provides a simple and reusable Docker environment:
 - **Features**: 
   - Automatically creates a non-root user with the same UID/GID as the host
   - Automatic sudo configuration (no password required)
-  - Basic tools pre-installed (sudo, curl, wget, vim, ca-certificates)
+  - Basic tools pre-installed (sudo, python3, python3-pip, git, curl, wget, vim, ca-certificates)
 
 
 ## Usage
