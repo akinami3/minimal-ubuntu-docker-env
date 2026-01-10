@@ -12,6 +12,9 @@ RUN apt-get update && apt-get install -y \
     wget \
     vim \
     ca-certificates \
+    git \
+    python3 \
+    python3-pip \
  && if getent passwd ${UID}; then \
         OLDUSER=$(getent passwd ${UID} | cut -d: -f1); \
         usermod -l ${USERNAME} ${OLDUSER}; \
